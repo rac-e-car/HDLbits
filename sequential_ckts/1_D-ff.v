@@ -11,7 +11,7 @@ module top_module (
     //   Clocked always blocks should use non-blocking assignments
     
     always @(posedge clk) begin
-        q = d;
+        q <= d;
     end
 endmodule
 
